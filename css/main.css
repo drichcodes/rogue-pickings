@@ -193,4 +193,8 @@ footer span {
 	.main-title h2 {
 		text-align: left;
 	}
+
+	.section-two p {
+		width: 85%;
+	}
 }

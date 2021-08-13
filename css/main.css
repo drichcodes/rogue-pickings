@@ -172,5 +172,25 @@ footer span {
 	.section-two,
 	.section-three {
 		width: 33.33%;
+		height: 17rem;
+		border: 1px solid #eee;
+		justify-content: flex-start;
+}
+
+@media (min-width: 1200px) {
+	header {
+		flex-direction: row;
+		justify-content: space-between;
+	}
+
+	header h1 {
+		width: 30%;
+		border: 0;
+		text-align: left;
+	}
+
+	.main-title, 
+	.main-title h2 {
+		text-align: left;
 	}
 }
